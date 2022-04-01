@@ -23,6 +23,6 @@ Finally, you can run CMake to create project files. Here is an example of an out
 ```console
 mkdir build && cd build
 cmake ..
-make
+make -j4
 ./blackhole
 ```
